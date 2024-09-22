@@ -49,3 +49,16 @@ span.uppercase {
 	background: green;
 	color: white;
 }
+
+/* ID selectors */
+h2 {
+	color: brown;
+}
+
+#uniq1 {
+	color: green;
+}
+
+h2[id] {
+	text-align: center;
+}
