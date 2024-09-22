@@ -13,3 +13,38 @@ em, i {
 	background: lightgray;
 	color: white;
 }
+
+/* Types of selectors */
+h3 {
+	border-bottom: 1px dotted gray;
+}
+
+.text {
+	color: #479051;
+}
+
+#cite {
+	color: #987362;
+}
+
+a[href] {
+	background: #562101;
+	color: white;
+}
+
+a[href="https://google.com"] {
+	text-decoration: none;
+}
+
+a:hover {
+	background: black;
+}
+
+p::first-line {
+	font-size: 1.5em;
+}
+
+div > p {
+	background: #321678;
+	color: white;
+}
