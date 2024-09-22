@@ -7,3 +7,9 @@ h1 {
 p {
 	border: 1px dashed lightgray;
 }
+
+/* Selector lists */
+em, i {
+	background: lightgray;
+	color: white;
+}
