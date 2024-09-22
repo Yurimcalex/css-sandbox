@@ -15,3 +15,13 @@ em {
 strong {
 	color: blue;
 }
+
+/* The universal selector */
+* {
+	margin: 10px;
+	padding: 5px;
+}
+
+.universal *:first-child {
+	border: 1px dotted gray;
+}
