@@ -1,0 +1,17 @@
+/* Type, class, and ID selectors */
+/* Type selectors */
+p {
+	color: #311111;
+}
+
+span {
+	color: green;
+}
+
+em {
+	color: red;
+}
+
+strong {
+	color: blue;
+}
