@@ -25,3 +25,27 @@ strong {
 .universal *:first-child {
 	border: 1px dotted gray;
 }
+
+/* Class selectors */
+.uppercase {
+	text-transform: uppercase;
+}
+
+span.uppercase {
+	text-decoration: underline;
+}
+
+.note {
+	border: 1px dashed gray;
+}
+
+.note.highlight {
+	background: yellow;
+}
+
+.note.strip {
+	border: none;
+	border-radius: 10px;
+	background: green;
+	color: white;
+}
