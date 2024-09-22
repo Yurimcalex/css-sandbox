@@ -1,1 +1,17 @@
 /* Attribute selectors */
+/* Presence and value selectors */
+li[class] {
+	border: 1px solid lightgray;
+}
+
+li[class="abc"] {
+	color: blue;
+}
+
+li[class~="e"] {
+	padding: 10px;
+}
+
+li[class|="op"] {
+	color: red;
+}
