@@ -1,0 +1,5 @@
+/* Combinators */
+/* Descendant combinator */
+.section-1 div ul {
+	border: 1px dashed lightgray;
+}
