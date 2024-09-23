@@ -32,3 +32,24 @@
 	text-transform: uppercase;
 	color: red;
 }
+
+/* Generating content with ::before and ::after */
+.div::before {
+	content: '... text before ...';
+}
+
+.div::after {
+	content: '... text after ...';
+}
+
+.div-1::after {
+	content: " ➥";
+}
+
+.div-2::after {
+	content: '';
+	display: block;
+	width: 200px;
+	height: 30px;
+	background: #CF67F1;
+}
