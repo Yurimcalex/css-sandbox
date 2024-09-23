@@ -1,0 +1,21 @@
+/* Cascade, specificity, and inheritance */
+/* Conflicting rules */
+h2 {
+	color: red;
+}
+
+h2 {
+	color: gray;
+}
+
+.title {
+	color: #67A2FD;
+}
+
+h1 {
+	color: green;
+}
+
+p {
+	color: #505050;
+}
