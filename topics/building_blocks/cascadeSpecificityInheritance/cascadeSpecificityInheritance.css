@@ -19,3 +19,40 @@ h1 {
 p {
 	color: #505050;
 }
+
+/* Understanding inheritance */
+.list {
+	margin: 20px;
+	border: 1px dotted gray;
+	color: #303030;
+}
+
+.alert {
+	color: #992020;
+}
+
+.links {
+	color: #10FF74;
+}
+
+.links li:first-child a {
+	color: inherit;
+}
+
+.links li:first-child + li a {
+	color: initial;
+}
+
+.links li:last-child a {
+	color: unset;
+}
+
+blockquote {
+	background: #9040DD;
+	border: 2px solid black;
+	color: white;
+}
+
+.unset-all {
+	all: unset;
+}
