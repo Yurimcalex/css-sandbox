@@ -8,3 +8,8 @@
 .section-2 > p {
 	color: #5F12FC;
 }
+
+/* Next-sibling combinator */
+h3 + p::first-line {
+	color: #12FA34;
+}
