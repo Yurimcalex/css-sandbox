@@ -21,3 +21,8 @@
 .point:focus {
 	border: 2px solid gray;
 }
+
+/* What is a pseudo-element? */
+.wiape p::first-line {
+	color: #F84352;
+}
