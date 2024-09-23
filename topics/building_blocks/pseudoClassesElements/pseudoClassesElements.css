@@ -1,1 +1,23 @@
 /* Pseudo-classes and pseudo-elements */
+/* What is a pseudo-class? */
+.funny-story p:first-child {
+	color: #459851;
+}
+
+.funny-story p:last-child {
+	border-bottom: 1px dotted gray;
+}
+
+.funny-story p em:only-child {
+	background: #239876;
+	color: white;
+}
+
+.point:hover {
+	background: black;
+	color: white;
+}
+
+.point:focus {
+	border: 2px solid gray;
+}
