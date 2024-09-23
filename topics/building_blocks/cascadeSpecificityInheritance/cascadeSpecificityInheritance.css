@@ -56,3 +56,25 @@ blockquote {
 .unset-all {
 	all: unset;
 }
+
+/* Understanding the cascade */
+h3 {
+	color: gray;
+	text-align: center;
+}
+
+.bright {
+	color: purple;
+}
+
+.fruit {
+	color: orange;
+}
+
+.fruit li:first-child {
+	color: initial;
+}
+
+.fruit li:last-child {
+	color: red !important;
+}
