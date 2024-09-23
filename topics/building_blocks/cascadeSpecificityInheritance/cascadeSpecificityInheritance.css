@@ -78,3 +78,8 @@ h3 {
 .fruit li:last-child {
 	color: red !important;
 }
+
+/* The effect of CSS location */
+.story h2 + p {
+	color: green;
+}
