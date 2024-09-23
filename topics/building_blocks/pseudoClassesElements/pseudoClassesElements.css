@@ -26,3 +26,9 @@
 .wiape p::first-line {
 	color: #F84352;
 }
+
+/* Combining pseudo-classes and pseudo-elements */
+.list li:first-child::first-letter {
+	text-transform: uppercase;
+	color: red;
+}
