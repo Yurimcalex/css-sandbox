@@ -13,3 +13,8 @@
 h3 + p::first-line {
 	color: #12FA34;
 }
+
+/* Subsequent-sibling combinator */
+.section-4 h2 ~ div {
+	border-bottom: 1px dotted lightgray;
+}
