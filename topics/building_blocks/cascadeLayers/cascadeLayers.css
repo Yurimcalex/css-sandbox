@@ -1,1 +1,19 @@
 /* Cascade layers */
+/* Creating cascade layers */
+.header1 {
+	color: green;
+}
+
+@layer page {
+  .header1 {
+    text-decoration: overline;
+    color: red;
+  }
+}
+
+@layer site {
+  .header1 {
+    text-decoration: underline;
+    color: green;
+  }
+}
