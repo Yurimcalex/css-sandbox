@@ -55,3 +55,38 @@
 	height: 320px;
 	width: 620px;
 }
+
+/* Margins, padding, and borders */
+.outer {
+	height: 200px;
+	width: 350px;
+	border: 5px solid #CDEEBB;
+}
+
+.inner {
+	height: 100px;
+	width: 200px;
+	margin-top: -20px;
+	margin-left: 30px;
+	margin-right: 35px;
+	margin-bottom: 20px;
+	border: 5px solid #789021;
+}
+
+.collapsing {
+	margin: 30px;
+}
+
+.collapsing > div {
+	height: 100px;
+	width: 100px;
+	border: 1px solid #890316;
+}
+
+.collapsing div:first-child {
+	margin-bottom: -55px;
+}
+
+.collapsing div:last-child {
+	margin-bottom: -5px;
+}
