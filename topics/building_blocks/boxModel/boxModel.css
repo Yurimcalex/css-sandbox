@@ -90,3 +90,13 @@
 .collapsing div:last-child {
 	margin-bottom: -5px;
 }
+
+/* The box model and inline boxes */
+.bmib p span {
+	height: 100px;
+	width: 100px;
+	padding: 10px;
+	margin: 50px;
+	border: 10px solid #205997;
+	background: #203050;
+}
