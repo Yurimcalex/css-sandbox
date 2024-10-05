@@ -1,1 +1,38 @@
 /* The box model */
+/* Examples of different display types */
+.ddt p {
+	padding: 0.5em;
+	border: 1px solid #430910;
+}
+
+.ddt ul {
+	display: flex;
+	padding: 15px;
+	list-style: none;
+	border: 1px solid #986325;
+}
+
+.ddt ul li {
+	padding: 5px;
+	border: 1px solid #CA9852;
+}
+
+.block {
+	display: block;
+}
+
+.ddt p span {
+	padding: 10px;
+	border: 1px solid #875232;
+}
+
+.ddt ul.inline {
+	display: inline-flex;
+	padding: 0;
+	border: 1px solid #00FA34;
+}
+
+.ddt p.inline {
+	display: inline;
+	padding: 0;
+}
