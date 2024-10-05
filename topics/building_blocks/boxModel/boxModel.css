@@ -36,3 +36,22 @@
 	display: inline;
 	padding: 0;
 }
+
+/* Playing with box models */
+.box {
+	width: 500px;
+	height: 200px;
+	margin: 30px;
+	padding: 50px;
+	border: 10px solid #2312FF;
+	background: #12FF45;
+}
+
+.alternative {
+	box-sizing: border-box;
+}
+
+.fit {
+	height: 320px;
+	width: 620px;
+}
