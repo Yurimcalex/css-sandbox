@@ -1,1 +1,10 @@
 /* Handling different text directions */
+/* What are writing modes? */
+.vertical_rl {
+	box-sizing: border-box;
+	height: 300px;
+	width: 50%;
+	margin: 0;
+	border: 3px solid #AA00DC;
+	writing-mode: vertical-rl;
+}
