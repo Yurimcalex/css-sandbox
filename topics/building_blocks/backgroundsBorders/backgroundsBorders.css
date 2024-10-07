@@ -58,3 +58,13 @@
 	background-attachment: local;
 	overflow: auto;
 }
+
+/* Borders */
+.borders p {
+	margin: 30px;
+	padding: 20px;
+	border-left: 10px solid #896215;
+	border-top: 24px dotted #ACCD78;
+	border-right: 13px dashed #A89FFD;
+	border-bottom: 19px solid #DA56FC;
+}
