@@ -8,3 +8,24 @@
 	border: 3px solid #AA00DC;
 	writing-mode: vertical-rl;
 }
+
+/* Writing modes and block and inline layout */
+section {
+	margin: 20px;
+	padding: 20px;
+	border: 2px dashed lightgray;
+}
+
+.wm-horizontal {
+	width: 300px;
+	padding: 5px;
+	border: 1px solid gray;
+	writing-mode: horizontal-tb;
+}
+
+.wm-vertical {
+	width: 500px;
+	padding: 5px;
+	border: 1px solid gray;
+	writing-mode: vertical-rl;
+}
