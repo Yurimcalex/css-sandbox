@@ -29,3 +29,9 @@ section {
 	border: 1px solid gray;
 	writing-mode: vertical-rl;
 }
+
+/* Logical properties and values */
+.box {
+	inline-size: 200px;
+	margin: 0;
+}
