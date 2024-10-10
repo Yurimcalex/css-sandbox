@@ -1,1 +1,6 @@
 /* Sizing items in CSS */
+/* The natural or intrinsic size of things */
+.box {
+	margin: 10px;
+	border: 2px solid lightgray;
+}
