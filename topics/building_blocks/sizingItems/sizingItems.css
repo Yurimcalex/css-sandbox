@@ -4,3 +4,19 @@
 	margin: 10px;
 	border: 2px solid lightgray;
 }
+
+.square {
+	height: 200px;
+	width: 200px;
+	padding: 10px;
+}
+
+.half-width {
+	width: 50%;
+}
+
+.mpp {
+	width: 50px;
+	margin: 10%;
+	padding: 10%;
+}
