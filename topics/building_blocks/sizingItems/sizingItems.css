@@ -29,3 +29,10 @@
 .max {
 	max-width: 100%;
 }
+
+/* Viewport units */
+.viewport {
+	height: 20vh;
+	width: 20vw;
+	font-size: 10vh;
+}
