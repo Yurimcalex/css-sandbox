@@ -1,1 +1,12 @@
 /* Overflowing content */
+/* CSS tries to avoid "data loss" */
+p.restricted_size {
+	height: 100px;
+	width: 500px;
+	border: 1px dashed #903463;
+}
+
+.word {
+	width: 50px;
+	border: 1px dashed #935623;
+}
