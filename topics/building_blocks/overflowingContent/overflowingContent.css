@@ -10,3 +10,16 @@ p.restricted_size {
 	width: 50px;
 	border: 1px dashed #935623;
 }
+
+/* The overflow property */
+.overflow_hidden {
+	overflow: hidden;
+}
+
+.overflow_scroll {
+	overflow: scroll;
+}
+
+.overflow_auto {
+	overflow: auto;
+}
