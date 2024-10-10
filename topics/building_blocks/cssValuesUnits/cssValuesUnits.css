@@ -29,3 +29,16 @@
 ul li.rem {
 	font-size: 2rem;
 }
+
+/* Color */
+.color1 {
+	background-color: antiquewhite;
+}
+
+.color2 {
+	background-color: blueviolet;
+}
+
+.color3 {
+	background-color: greenyellow;
+}
