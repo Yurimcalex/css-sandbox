@@ -56,3 +56,13 @@ ul li.rem {
 	background-repeat: no-repeat;
 	background-position: right 30px;
 }
+
+/* Strings and identifiers */
+.content {
+	width: 50%;
+	border: 5px solid #FACDBE;
+}
+
+.content::after {
+	content: "Some content";
+}
