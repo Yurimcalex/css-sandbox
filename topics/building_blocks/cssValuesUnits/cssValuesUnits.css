@@ -66,3 +66,8 @@ ul li.rem {
 .content::after {
 	content: "Some content";
 }
+
+/* Functions */
+.calc {
+	width: calc(10vh + 20% + 10px);
+}
