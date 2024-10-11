@@ -83,3 +83,14 @@ tbody tr:nth-child(even) {
 table {
   background-color: #ff33cc;
 }
+
+/* Styling the caption */
+caption {
+  font-family: "Rock Salt", cursive;
+  padding: 20px;
+  font-style: italic;
+  caption-side: bottom;
+  color: #537;
+  text-align: right;
+  letter-spacing: 1px;
+}
