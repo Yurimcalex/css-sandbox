@@ -1,1 +1,29 @@
 /* Images, media, and form elements */
+.box {
+	margin: 15px;
+	padding: 10px;
+	border: 2px solid #CD87CF;
+}
+
+.square {
+	height: 300px;
+	width: 500px;
+}
+
+/* Sizing images */
+.img {
+	max-width: 100%;
+}
+
+.wh {
+	height: 100%;
+	width: 100%;
+}
+
+.img-cover {
+	object-fit: cover;
+}
+
+.img-contain {
+	object-fit: contain;
+}
