@@ -54,3 +54,32 @@ tbody td {
 tfoot th {
 	text-align: right;
 }
+
+/* Graphics and colors */
+thead, tfoot {
+	background: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQZ_Vs7Rq28PBFCeSYVXbOeaNO-D06yFX0w9SY0piKobcy5hR1NQi2pRkTIg1iLRbDiWPI&usqp=CAU);
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	color: white;
+	text-shadow: 1px 1px 1px black;
+}
+
+thead th,
+tfoot th,
+tfoot td {
+  background: linear-gradient(to bottom, rgb(0 0 0 / 10%), rgb(0 0 0 / 50%));
+  border: 3px solid purple;
+}
+
+tbody tr:nth-child(odd) {
+  background-color: #dd33cc;
+}
+
+
+tbody tr:nth-child(even) {
+  background-color: #e495e4;
+}
+
+table {
+  background-color: #ff33cc;
+}
