@@ -40,3 +40,34 @@
   background-color: rebeccapurple;
   border-radius: .5em;
 }
+
+/* Form elements */
+.form {
+	width: 400px;
+}
+
+.form * {
+	box-sizing: border-box;
+}
+
+.form > div {
+	margin: 5px;
+}
+
+.form label,
+.form input {
+	display: inline-block;
+}
+
+.form label {
+	width: 30%;
+}
+
+.form input[type="text"],
+.form input[type="password"] {
+	width: 70%;
+}
+
+.form > div:last-child {
+	text-align: right;
+}
