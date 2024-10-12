@@ -87,3 +87,13 @@
 	background-color: #FB2671;
 	mix-blend-mode: multiply;
 }
+
+/* CSS shapes */
+.img1 {
+	height: 200px;
+	width: 200px;
+	margin-right: 20px;
+	border-radius: 50%;
+	float: left;
+	shape-outside: circle(50%);
+}
