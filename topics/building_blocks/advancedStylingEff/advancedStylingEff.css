@@ -25,3 +25,15 @@
 							15px 15px 5px rgb(0 255 0 / 50%),
 							20px 20px 5px rgb(0 0 255 / 50%);
 }
+
+/* Other box shadow features */
+.box {
+	margin: 20px;
+	padding: 20px;
+	border: 2px solid #DF679A;
+}
+
+.btn:hover {
+	box-shadow: inset 0px 0px 15px rgb(0 0 150 / 50%),
+										3px -3px 5px rgb(0 135 0/ 50%);
+}
