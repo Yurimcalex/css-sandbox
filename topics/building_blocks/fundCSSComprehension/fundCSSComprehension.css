@@ -41,3 +41,8 @@ h2, p {
 	height: 12em;
 	background-color: rgb(0 0 0 / 50%);
 }
+
+.card header,
+.card footer {
+	height: 5em;
+}
